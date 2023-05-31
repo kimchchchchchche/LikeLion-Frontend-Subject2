@@ -3,16 +3,16 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
-import movie1 from "../img/movie1.webp";
-import movie2 from "../img/movie2.jpg";
-import movie3 from "../img/movie3.jpg";
+import movie1 from "../img/1.jpg";
+import movie2 from "../img/2.jpg";
+import movie3 from "../img/3.jpg";
 
 export default function Albums() {
   return (
     <Container className="p-5">
       <Row className="p-5">
         <Col>
-          <Link to="/Albums/movie1">
+          <Link to="/Albums/1">
             <img src={movie1} className="album" alt="react" width="100%" />
           </Link>
           <div className="movie_title">극장판</div>
@@ -21,7 +21,7 @@ export default function Albums() {
           </div>
         </Col>
         <Col>
-          <Link to="/Albums/movie2">
+          <Link to="/Albums/2">
             <img src={movie2} className="album" alt="react" width="100%" />
           </Link>
           <div className="movie_title">극장판</div>
@@ -30,7 +30,7 @@ export default function Albums() {
           </div>
         </Col>
         <Col>
-          <Link to="/Albums/">
+          <Link to="/Albums/3">
             <img src={movie3} className="album" alt="react" width="100%" />
           </Link>
           <div className="movie_title">극장판</div>

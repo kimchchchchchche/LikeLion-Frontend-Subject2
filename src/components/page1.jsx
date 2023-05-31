@@ -12,10 +12,10 @@ export default function Page1() {
     <Navbar bg="light" expand="lg">
       <Logo />
       <Container>
-        <Navbar.Brand href="/" >멋사 Shop</Navbar.Brand>
+        <Navbar.Brand href="/" >짱구 Shop</Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/Albums">Albums</Nav.Link>
+            <Nav.Link href="/Albums">Movies</Nav.Link>
        
           </Nav>
         </Navbar.Collapse>
